@@ -28,4 +28,12 @@ public class AllDatasets {
     @Column
     @JsonProperty("database_name")
     private String database_name;
+
+    @Column
+    @JsonProperty("database_type")
+    private String databaseType;
+
+    public String getDataset_name(){
+        return this.database_name;
+    }
 }

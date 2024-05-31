@@ -37,4 +37,7 @@ public class DatasetInfo {
     @JsonProperty("datasetid")
     private Integer datasetid;
 
+    @Column
+    @JsonProperty("user_name")
+    private String user_name;
 }
